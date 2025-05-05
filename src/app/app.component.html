@@ -1,2 +1,6 @@
 <app-bonjour></app-bonjour>
 <app-utilisateur (supprimer)="AfficheID($event)" [nom] = "'youssef'"></app-utilisateur>
+<ul>
+    <li *ngFor="let tache of taches">{{ tache }}</li>
+  </ul>
+  

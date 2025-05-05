@@ -10,6 +10,7 @@ import { NgModel } from '@angular/forms';
 
 })
   export class UtilisateurComponent {
+    message ="";
 @Input() nom: string = '';
 
 @Output() supprimer = new EventEmitter<number>();
