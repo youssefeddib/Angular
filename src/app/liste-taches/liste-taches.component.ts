@@ -1,8 +1,10 @@
+import { CommonModule } from '@angular/common';
 import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-liste-taches',
-  standalone: true, // 👈 هذا مهم
+  standalone: true,
+  imports: [CommonModule],
   templateUrl: './liste-taches.component.html',
   styleUrls: ['./liste-taches.component.css']
 })
